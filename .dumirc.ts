@@ -6,7 +6,7 @@ const publicPath = isDev ? '/' : '/create-puzzle/';
 export default defineConfig({
   themeConfig: {
     name: 'create-puzzle',
-    logo: 'https://www.caijinfeng.com/logo.png',
+    logo: 'https://www.caijf.top/logo.png',
     nav: [],
     prefersColor: {
       default: 'light',
@@ -17,7 +17,7 @@ export default defineConfig({
     <div>Powered by <a href="https://d.umijs.org/" target="_blank">dumi</a></div>
     </div>`
   },
-  favicons: ['https://www.caijinfeng.com/favicon.ico'],
+  favicons: ['https://www.caijf.top/favicon.ico'],
   base: publicPath,
   publicPath,
   outputPath: 'docs-dist',
